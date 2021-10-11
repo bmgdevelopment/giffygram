@@ -10,19 +10,18 @@
     top: 0;
     width: 100%;
     background-color: rgba(28, 130, 255, 0.351);
-    margin: auto;
 }
 
 .navigation__item {
     /* vertical-align: baseline; */
     display: flex;
     align-items: center;
-    margin-right: 5%;
+    padding-right: 14em;
 }
 
 .navigation__name {
     font-size: 2rem;
-    padding-left: 0.5rem;
+    padding-left: 14rem;
     padding-top: 0.1rem;
 }
 
