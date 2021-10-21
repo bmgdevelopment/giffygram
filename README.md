@@ -14,8 +14,8 @@ My tasks were to help structure the site as the guided example provided, includi
 6. Favorite/unfavorite feature for individual posts
 7. Overall CSS for clean usage and styling
 
-### Login for download
-If this repo is forked, please use one of the user's login and passcode for entry into the application. The API must also be served at port 4000.
+### Download this app: 
+If this repo is forked, please use one of the user's login and passcode for entry into the application. Feel free to use email": "ray@medrano.com" and "password": "ray". The API must also be served at port 4000. 
 
 ### Team Kudos
 Nick: 
@@ -37,3 +37,6 @@ Brittany:
 "Kudos to all three of my teammates for being supportive and encouraging during all ups and downs of this project. When things would break, everyone was always positive and willing to look for solutions via google or previous projects. Every one of my teammates showed their strengths and had no problem admitting to any weaknesses, but that never stopped them from trying. Diligence, great spirits and teamwork would be the three phrases I use to sum up my time working with them!"
 
 "Kudos to Chelsea and Duley for being so involved and eager to learn! They both helped with structuring the visual HTML for our Giffygram which was gave us the ability to keep working out the kinks and functionality of key components. We alternated group times together but spent late hours knocking things out and even when things were’t super clear or thoroughly understood, they both brought positive attitudes, suggestions and help at every meet up! And regardless of knowing the solution or not, they were willing to test their scope of knowledge at every turn. Kudos to Nick for executing the functionality of the form to input the gif information and send to the API properly. I know there were several times he had to work late hours and/or had issues with his laptop but he still came through!"
+
+### Screenshots
+![alt text](src/images/giffygram3screenshots.png)
