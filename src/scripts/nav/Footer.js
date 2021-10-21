@@ -72,12 +72,7 @@ const postsByYear = () => {
       applicationState.year21only.push(post);
     }
   });
-  // console.log(applicationState.year19only);
-  // console.log(applicationState.year20only);
-  // console.log(applicationState.year21only);
 };
-
-
 
 // FILTER FEED BY USER (REFACTORED -- ✅ NEW)
 // -------------------------------------
@@ -213,91 +208,3 @@ document.addEventListener('change', e => {
 
   } //begins if statement for change element
 });   
-
-
-
-
-
-
-
-
-
-
-
-// OLD CODE BELOW; HERE FOR LATER REFERENCE
-//   if (document.getElementById('user__select').selectedIndex === 1) {
-//     applicationState.usersArr.map(user => {
-//       postsByUserFilteredArr(user); //invoked here to use users.map method
-//       if (user.id === 1) {
-
-//         document.querySelector('.post').innerHTML = 
-//        `
-//       <div class="filtered__post">${applicationState.user1Filtered.map(post => {
-//   return `
-//           <h2 class="post__title">${post.title}</h2>
-//            <img class="post__image" src="${post.imageURL}"></img>
-//         <div class="post__description">${post.description}</div>
-//           <p>Post by ${user.name} on ${post.timestamp}</p>
-//           <div class="post__actions"> 
-//           <div id="favDiv--${post.id}"><button id="blackStarBtn--${post.id}" class="StarBtn">✩</button></div>
-//           <button id="trashBtn--${post.id}"  class="trashDeleteBtn">🗑</button>
-//         </div>
-//     `;
-// }).join('')}
-//       </div>`;
-
-
-
-
-//   if (document.getElementById('year__select').value === '2021') {
-//     document.querySelector('.post').innerHTML = `
-//     <div class="filtered__post">${applicationState.year21only.map(yr21post => {
-//   const postAuthor = postUsername(yr21post, applicationState.usersArr);
-//   return `
-//         <h2 class="post__title">${yr21post.title}</h2>
-//          <img class="post__image" src="${yr21post.imageURL}"></img>
-//       <div class="post__description">${yr21post.description}</div>
-//         <p>Post by ${postAuthor} on ${yr21post.timestamp}</p>
-//         <div class="post__actions"> 
-//         <div id="favDiv--${yr21post.id}"><button id="blackStarBtn--${yr21post.id}" class="StarBtn">✩</button></div>
-//         <button id="trashBtn--${yr21post.id}"  class="trashDeleteBtn">🗑</button>
-//       </div>
-//   `;
-// }).join('')} 
-//     </div>`;
-//   }
-
-//   if (document.getElementById('year__select').value === '2020'){
-//     document.querySelector('.post').innerHTML = `
-//     <div class="filtered__post">${applicationState.year20only.map(yr20post => {
-//   const postAuthor = postUsername(yr20post, applicationState.usersArr);
-//   return `
-//       <h2 class="post__title">${yr20post.title}</h2>
-//       <img class="post__image" src="${yr20post.imageURL}"></img>
-//       <div class="post__description">${yr20post.description}</div>
-//       <p>Post by ${postAuthor} on ${yr20post.timestamp}</p>
-//       <div class="post__actions"> 
-//       <div id="favDiv--${yr20post.id}"><button id="blackStarBtn--${yr20post.id}" class="StarBtn">✩</button></div>
-//       <button id="trashBtn--${yr20post.id}"  class="trashDeleteBtn">🗑</button>
-//       </div>
-//     `;
-// }).join('')} 
-//     </div>`;
-//   }
-
-//   if (document.getElementById('year__select').value === '2019') {
-//     document.querySelector('.post').innerHTML = `
-//     <div class="filtered__post">${applicationState.year19only.map(yr19post => {
-//   const postAuthor = postUsername(yr19post, applicationState.usersArr);
-//   return `
-//       <h2 class="post__title">${yr19post.title}</h2>
-//       <img class="post__image" src=${yr19post.imageURL}"></img>
-//       <div class="post__description">${yr19post.description}</div>
-//       <p>Post by ${postAuthor} on ${yr19post.timestamp}</p>
-//       <div class="post__actions"> 
-//       <div id="favDiv--${yr19post.id}"><button id="blackStarBtn--${yr19post.id}" class="StarBtn">✩</button></div>
-//       <button id="trashBtn--${yr19post.id}"  class="trashDeleteBtn">🗑</button>
-//       </div>`;
-// }).join('')} 
-//     </div>`;
-//   }

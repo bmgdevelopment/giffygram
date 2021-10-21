@@ -5,18 +5,18 @@
     border-bottom: 1px solid rgb(30, 117, 211);
     padding: 0.5em 1em 0.5em 2em;
     margin-bottom: 2em;
-    /* position: fixed; */
     z-index: 11;
     top: 0;
     width: 100%;
     background-color: rgba(28, 130, 255, 0.351);
+    /* position: fixed; */
 }
 
 .navigation__item {
-    /* vertical-align: baseline; */
     display: flex;
     align-items: center;
     padding-right: 14em;
+    /* vertical-align: baseline; */
 }
 
 .navigation__name {

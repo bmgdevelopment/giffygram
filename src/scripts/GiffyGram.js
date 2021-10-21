@@ -247,26 +247,3 @@ document.addEventListener('change', e => {
     } 
   }
 });
-
-
-
-
-// ---------------------------------------------------------------------------------------------------------
-// ---------------------------------------------------------------------------------------------------------
-// ---------------------------------------------------------------------------------------------------------
-
-//OLD CODE BELOW -- MATCH FAV POST TO FAVS ARRAY FROM API
-// const matchFavs = () => {
-//   const favs = applicationState.favPosts;
-//   const posts = applicationState.postsArr;
-
-//   favs.map(fav => {
-//     posts.map(post => {
-//       if (post.id === fav.postId) {
-//         console.log('matchFavs function works');
-//         document.getElementById(`favDiv--${post.id}`).innerHTML = `<button id="goldStarBtn--${post.id}" class="StarBtn">⭐️</button>`;
-//       }
-//     });
-//   });
-  
-// };
