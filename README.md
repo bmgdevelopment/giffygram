@@ -1,3 +1,7 @@
+### Giffygram JS Application
+Email - brittanymgarrett@gmail.com
+LinkedIn - http://www.linkedin.com/in/brittanymgarrett
+
 ### Why Giffygram
 Being able to share fun and expressive gifs has grown to be a popular habit! Giffygram was created as a fun gif sharing web application that lets users post their favorite gifs, save their favorite gifs from other users and privately direct message other users. Giffygram was a group project that I was encouraged to take lead on by the evening cohort instructor. Even though it's a basic design, this project bridged our class introduction to using APIs, work together to properly use GitHub projects and work individually to bring a collective goal to fruition.
 
