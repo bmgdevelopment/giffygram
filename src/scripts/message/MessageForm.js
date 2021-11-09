@@ -122,10 +122,10 @@ export const directMsgHTML = () => {
 
   let homeBtn = `
   <div id="returnDiv">
-    <button id="returnHomeBtn">Return Home</button>
+    <button id="returnHomeBtn">Return Home</button> 
   </div>`;
 
-  localStorage.setItem('directMessageInUse', 'true');  // 👀
+  localStorage.setItem('directMessageInUse', 'true');  //  
 
   return topDiv + html + homeBtn;
   };
@@ -149,7 +149,7 @@ export const directMsgHTML = () => {
     //x % 2 == 0 matches the remainder of 0 to the value or type of 0
     if (e.target.id === 'create_msg') {
 
-      if (localStorage.getItem('directMessageInUse') === 'true') { // 👀
+      if (localStorage.getItem('directMessageInUse') === 'true') { //  
 
         e.preventDefault();
         y++; //increments button clicks x=x+1

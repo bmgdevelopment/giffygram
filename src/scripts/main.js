@@ -41,7 +41,7 @@ entirePageForGiffygram.addEventListener('stateChanged', () => {
 document.addEventListener('click', e => {
   if (e.target.id === 'home__feed') {
     console.log('Click is registered for home button');
-    localStorage.removeItem('directMessageInUse');  // 👀    
+    localStorage.removeItem('directMessageInUse');  //      
     document.querySelector('.giffygram').dispatchEvent(new CustomEvent('stateChanged'));
   }
 });
@@ -51,7 +51,7 @@ document.addEventListener('click', e => {
 document.addEventListener('click', e => {
   if (e.target.id === 'returnHomeBtn') {
     console.log('Click is registered for home button');
-    localStorage.removeItem('directMessageInUse');  // 👀
+    localStorage.removeItem('directMessageInUse');  //  
     document.querySelector('.giffygram').dispatchEvent(new CustomEvent('stateChanged'));
     // document.getElementById('.post').innerHTML = function(); //need main feed function;
   }

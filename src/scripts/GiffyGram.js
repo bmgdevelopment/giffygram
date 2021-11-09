@@ -17,8 +17,8 @@ const applicationState = {
 // FUNCTION TO MATCH NAME TO POST FOR ALL POSTS FUNCTION
 //------------------------------------------------------
 const postUsername = (post) => {
-  const allUsers = getUsers();
   applicationState.usersArr = getUsers();
+  const allUsers = getUsers();
 
   for (const user of allUsers) {
     if (user.id === post.senderId) {
@@ -142,6 +142,7 @@ export const GiffyGram = () => {
   </div>
 
   <div id="dirMsgFormView"></div>
+
   <div id="directMsgView">
     <div id="emptyDiv"></div>
 
@@ -167,7 +168,7 @@ document.addEventListener('click', e => {
     fetchUsers().then(() => {
       // entirePageForGiffygram.innerHTML = LoginForm(); this is redundant
       localStorage.setItem('gg_user', null);
-      localStorage.removeItem('directMessageInUse');  // 👀
+      localStorage.removeItem('directMessageInUse');  //  
       document.querySelector('.giffygram').dispatchEvent(new CustomEvent('stateChanged'));
     });
   }
